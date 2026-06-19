@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MinerSentry — Support</title>
+<style>
+  :root { --accent:#f59e0b; --bg:#0e1116; --card:#171c24; --text:#e6e9ee; --muted:#9aa4b2; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         background:var(--bg); color:var(--text); line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 22px 80px; }
+  header { text-align:center; margin-bottom:40px; }
+  .logo { width:84px; height:84px; border-radius:20px; background:linear-gradient(135deg,#f59e0b,#b45309);
+          display:inline-flex; align-items:center; justify-content:center; font-size:42px; margin-bottom:16px; }
+  h1 { font-size:30px; margin:8px 0 4px; }
+  .tag { color:var(--muted); font-size:17px; }
+  .card { background:var(--card); border:1px solid #232a34; border-radius:16px; padding:22px 24px; margin:18px 0; }
+  h2 { font-size:20px; margin:0 0 12px; }
+  ul { margin:0; padding-left:20px; } li { margin:6px 0; }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .muted { color:var(--muted); } code { background:#222a35; padding:2px 6px; border-radius:6px; font-size:14px; }
+  footer { text-align:center; color:var(--muted); font-size:14px; margin-top:40px; }
+  .price { display:inline-block; background:rgba(245,158,11,.15); color:var(--accent);
+           padding:4px 12px; border-radius:999px; font-weight:600; font-size:14px; margin-top:10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">⛏️</div>
+    <h1>MinerSentry</h1>
+    <div class="tag">Monitor &amp; control your ASIC miners from your iPhone</div>
+    <div class="price">One-time $0.99 · no subscription</div>
+  </header>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <p>MinerSentry watches your home or small-scale ASIC mining fleet over your local Wi-Fi — no cloud account, no middleman. It supports Bitmain Antminer (S21, L7 and more) on stock, Vnish, Braiins OS and LuxOS firmware, plus Canaan Avalon Nano 3 / 3S.</p>
+    <ul>
+      <li>Live hashrate, temperature, fan speed, power and best share</li>
+      <li>Miners grouped by type and algorithm (SHA-256, Scrypt, Equihash)</li>
+      <li>Per-coin solo block-odds and best-share tracking</li>
+      <li>Alerts for low hashrate, overheating and offline miners</li>
+      <li>Switch active pools and reboot miners individually or by group</li>
+      <li>Lock Screen / Dynamic Island Live Activity and a Home Screen widget</li>
+      <li>Private iCloud sync of your miners and settings</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Getting started</h2>
+    <ul>
+      <li><strong>Add a miner:</strong> tap <strong>+</strong>, then either run a Wi-Fi scan or enter the miner's IP address directly.</li>
+      <li><strong>Nothing found when scanning?</strong> Make sure your iPhone is on the same Wi-Fi network as your miners, and that Local Network access is enabled in <em>Settings ▸ Privacy &amp; Security ▸ Local Network ▸ MinerSentry</em>.</li>
+      <li><strong>Controls:</strong> open a miner to see details, switch its pool, or reboot it; the Controls tab acts on the whole fleet.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Support</h2>
+    <p>Questions, bug reports or feature requests? Email <a href="mailto:support@techbitsmix.com">support@techbitsmix.com</a>.</p>
+    <p class="muted">Not affiliated with Bitmain or Canaan. Mining is inherently variable; solo block odds are statistical estimates, not guarantees.</p>
+  </div>
+
+  <p style="text-align:center"><a href="privacy.html">Privacy Policy</a></p>
+  <footer>© 2026 TechBitsMix · MinerSentry</footer>
+</div>
+</body>
+</html>
